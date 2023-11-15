@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Rubik:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+a{
+  cursor: pointer;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #181A1E;
+}
+body > div{
+  position: relative;
+	min-height: 100%;
+}
+.btn-primary:active {
+  --bs-btn-active-bg:#363949;
+  --bs-btn-active-border-color: #363949;
+  --bs-btn-active-color: #EDEFFD;
+}
+
+/*для кнопок на странице регистрации и авторизации*/
+.activeBut, .activeBut:hover{
+  background-color: #677483;
+  border-color: #677483;
+  font-size: 18px;
+  font-weight: 500;
+  width: 50%;
+}
+.otherBut, .otherBut:hover{
+  background-color: #363949;
+  border-color: #677483;
+  color: #EDEFFD;
+  font-size: 18px;
+  font-weight: 500;
+  width: 50%;
+}
+/*для красивого подсвечивания границ кнопки при наведении*/
+.otherBut:hover{
+  border-color: #363949;
+}
+
+.entry{
+  margin: 14px 45px 0 45px;
+  width: 310px;
+  background-color: #363949;
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.entry:hover{
+  background-color: #677483;
+}
+
+.form-control{
+  font-weight: 500;
+}

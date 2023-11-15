@@ -1,0 +1,31 @@
+.containerFooter{
+    background-color: #363949;
+    height: 7.5vh;
+    padding: 0;
+    position: absolute;
+	left: 0;
+	bottom: 0;
+    color: #EDEFFD;
+}
+.footer{
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex; 
+    font-size: 14px;
+    max-width: 100vw;
+}
+.rulesFooter{
+    padding-top: 20px;
+}
+.contacts{
+    padding-top: 16px;
+    float: right;
+    margin-left: auto;
+}
+.imgHoverFooter:hover{
+    background-color: #677483;
+}
+.imgVk{
+    margin: auto 10px;
+    width: 30px;
+}

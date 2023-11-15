@@ -1,0 +1,77 @@
+.groupHome{
+    width: 850px;
+    height: 220px;
+    border: 1px solid;
+    background-color: #202528;
+    margin: 210px auto;
+    border-radius: 10px;
+}
+.homeDrop > .dropdown-toggle, .homeDrop > .dropdown-toggle:active, .homeDrop > .dropdown-toggle:first-child{
+    background-color: #EDEFFD;
+    color: #363949;
+    border: 0;
+    height: 60px;
+    width: 250px;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.homeDrop > .dropdown-toggle:after{
+    border: 0;
+}
+.rowHome{
+    width: 850px;
+    margin: 0;
+}
+
+.dropHome1, .dropHome2, .dropHome3, .colButtonHome1, .colButtonHome2{
+    width: 250px;
+    padding: 0;
+}
+.dropHome2{
+    margin: 30px 0;
+}
+.dropHome1{
+    margin: 30px 20px 20px 30px;
+}
+.dropHome3{
+    margin: 30px 30px 40px 20px;
+}
+.ik{
+    float: right;
+    padding: 5px 0;
+}
+.button-text {
+    text-align: left;
+    margin: 15px 20px 0 25px;
+}
+.colButtonHome1{
+    margin: 0 20px 30px 160px;
+
+}
+.colButtonHome2{
+    margin: 0 170px 30px 0px;
+}
+.buttonHome{
+    background-color: #363949;
+    color: #EDEFFD;
+    border: 0;
+    height: 60px;
+    width: 250px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.buttonHome:hover{
+    background-color: #677483;
+}
+.homeDrop > .dropdown-menu{
+    width: 250px;
+    background-color: #EDEFFD;
+}
+.itemButton{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}

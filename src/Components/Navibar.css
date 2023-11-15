@@ -1,0 +1,71 @@
+ .navbar{
+    background-color: #363949;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.containerHead{
+    margin: auto 80px;
+    padding: 0;
+    max-width: 90vw;
+    height: 6vh;
+}
+.logoText{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #EDEFFD;
+    margin-right: 100px;
+}
+.logo{
+    color: #FF0060;
+}
+.nav-link{
+    margin-right: 40px;
+}
+.entryHead{
+    margin: 0;
+}
+.avatar{
+    width: 36px;
+    margin-left: 14px;
+}
+.avatarDrop > .dropdown-toggle{
+    background-color: #363949;
+    width: 0;
+}
+.avatarDrop{
+    margin-right: 75px; 
+}
+
+.avatarDrop > .dropdown-toggle:after{
+    border: 0;
+}
+.avatarDrop > .dropdown-menu{
+    width: 197.7px;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: #363949;
+    border: 0;
+    border-radius: 0;
+}
+.avatarDrop > .dropdown-menu > .dropdown-item{
+    color: #EDEFFD;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+    padding-right: 0px;
+    width: 100%;
+}
+.avatarDrop > .dropdown-menu > .dropdown-item:hover{
+    background-color: #677483;
+    margin: 5px;
+    border-radius: 5px;
+    width: 95%;
+
+}
+.textName{
+    color: #EDEFFD;
+}

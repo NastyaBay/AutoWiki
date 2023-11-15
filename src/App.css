@@ -1,0 +1,59 @@
+.underline{
+    text-decoration: underline;
+}
+
+/*основные стили шрифта*/
+.fontRubbik20{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fontRubbik18{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.fontRubbik14{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #EDEFFD;
+}
+/*для изменения цвета при наведении*/
+.textBody{
+    color: #EDEFFD;
+}
+.textBody:hover{
+    color: #677483;
+}
+
+/*для страницы регистрации и авторизации */
+.rulesLogReg{
+    color: #EDEFFD;
+    font-size: 13px;
+    text-align: center;
+    padding: 10.25px 20px;
+    margin: 0;
+}
+.formLogReg{
+    margin: 0 45px 20px 45px;
+}
+
+.groupBtn{
+    margin: 40px 45px 30px 45px;
+    width: 310px;
+    height: 40px;
+}
+.LabelFormRegLog{
+    color: #EDEFFD;
+    margin: 0;
+    margin-top: 14px;
+    font-size: 18px;
+}
+.regForm{
+    height: 40px;
+}
+/*
+textarea.form-control, input.form-control, .entry{
+    height: 40px;
+}*/

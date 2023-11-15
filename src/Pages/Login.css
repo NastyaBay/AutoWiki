@@ -1,0 +1,19 @@
+.groupLogin{
+    width: 400px;
+    height: auto;
+    background-color: #202528;
+    margin: auto;
+    margin-top: 177px;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 40px;
+}
+
+.password-remide{
+    color: #EDEFFD;
+    font-size: 16px;
+    margin: 0 45px;
+    text-align: center;
+    min-height: 40px;
+    padding: 8px
+}

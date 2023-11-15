@@ -1,0 +1,141 @@
+.groupAccHead{
+    min-width: 100vw;
+    height: 170px;
+    background: linear-gradient(to top left, rgba(163, 189, 204, 1), rgba(125, 141, 161, 1), rgba(103, 116, 131, 1), rgba(54, 57, 73, 1));
+    display: flex; 
+    margin: 0;
+}
+.avatarAcc{
+    height: 90px;
+    margin: 40px 0px 40px 550px;
+}
+.nameUser{
+    margin: 40px auto 40px 30px;
+}
+.groupAccData{
+    background-color: #202528;
+    width: 600px;
+    min-height: 250px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 50px 50px 20px;
+}
+
+.groupAccFav{
+    background-color: #202528;
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 50px 50px 20px;
+}
+
+.groupAccQuestion{
+    background-color: #202528;
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 15px 50px 50px 20px;
+}
+.accData{
+    padding: 0;
+    padding-bottom: 15px;
+}
+.accGroup{
+   height: auto;
+   padding-bottom: 7.5vh;;
+
+}
+.hrAcc{
+    border-top: 1px solid #7D8DA1;
+    margin: 0;
+    margin-top: 0px;
+}
+.accList{
+    margin:auto 30px;
+    padding: 0 15px;
+    width: 500px;
+    height: 50px;
+}
+.groupData{
+    margin: 0;
+    padding: 0;
+}
+.accList:hover{
+    background-color: #7D8DA1;
+    border-radius: 5px;
+}
+.buttonAccQuestion{
+    background-color: #A3BDCC;
+    color: #363949;
+    border: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 180px 0 210px;
+}
+.buttonAccQuestion:hover{
+    color: #A3BDCC;
+    background-color: #363949;
+    border: 0;
+}
+.textAcc{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.changeAcc{
+    margin-left: auto;
+}
+.hrefAuto{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.imgLike{
+    width: 20px;
+    height: 20px;
+}
+.changeAcc:hover{
+    color: #363949;
+}
+.accListChange{
+    margin:auto 30px;
+    padding: 15px 15px 0 15px;
+    width: 255px;
+}
+.formAccName{
+    font-size: 12px;
+    height: 30px;
+    color: #363949;
+}
+.butAccName{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #A3BDCC;
+    border: none;
+    color: #363949;
+    font-weight: 500;
+    padding:6px 19px;
+}
+.hrChange{
+    margin:15px 15px auto 45px;
+}
+.butAccName:hover{
+    background-color: #363949;
+    color: #EDEFFD;
+}
+.labelPassword{
+    font-size: 12px;
+    margin: 0;
+}
+.solution{
+    padding-top: 10px;
+}
