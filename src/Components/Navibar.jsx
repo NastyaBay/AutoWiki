@@ -24,7 +24,7 @@ export default function NaviBar() {
                         <Nav.Link><Link to="/" className="textBody">Главная</Link></Nav.Link>
                         <Nav.Link><Link to="/users" className="textBody">Форум</Link></Nav.Link>
                     </Nav>
-                    {true ? (
+                    {false ? (
                       <>
                       <NavDropdown className="avatarDrop" title={<Image src={avatar} className="avatar" roundedCircle />}>
                         <NavDropdown.Item href="#action/3.1"><Link to="/account" className="textName">Имя пользователя</Link></NavDropdown.Item>

@@ -1,14 +1,14 @@
 import React from 'react'
-import './Login.css'
 import {Button, ButtonGroup, Form} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Registration.css'
 
-export const Login = () => (
+export const Registration = () => (
     <>
-        <div className='groupLogin'>
-            <ButtonGroup aria-label="Basic example" className='groupBtn'>
-                <Button className='activeBut'>Вход</Button>
-                <Button className='otherBut'><Link to="/registration" className='otherBut'>Регистрация</Link></Button>
+        <div className='groupReg '>
+            <ButtonGroup aria-label="Basic example" className='groupBtn fontRubbik18'>
+                <Button className='otherBut'><Link to="/login" className='otherBut'>Вход</Link></Button>
+                <Button className='activeBut'>Регистрация</Button>
             </ButtonGroup>
             <Form>
                 <Form.Group className="formLogReg" controlId="formBasicEmail">
@@ -19,9 +19,12 @@ export const Login = () => (
                     <Form.Label className='LabelFormRegLog'>Пароль</Form.Label>
                     <Form.Control type="password" className='regForm'/>
                 </Form.Group>
+                <Form.Group className="formLogReg" controlId="formBasicPassword">
+                    <Form.Label className='LabelFormRegLog'>Подтверждение пароля</Form.Label>
+                    <Form.Control type="password" className='regForm'/>
+                </Form.Group>
             </Form>
-            <Button className='entry' type='submit' >Войти</Button>
-            <p className='password-remide underline textBody'>Напомнить пароль</p>
+            <Button className='entry regForm' >Создание аккаунта</Button>
         </div>
         <p className='rulesLogReg'>При входе вы принимаете <span className='underline textBody'>условия использования</span> сайта.</p>
     </>
