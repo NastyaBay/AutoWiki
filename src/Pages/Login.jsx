@@ -8,7 +8,7 @@ export const Login = () => (
         <div className='groupLogin'>
             <ButtonGroup aria-label="Basic example" className='groupBtn'>
                 <Button className='activeBut'>Вход</Button>
-                <Button className='otherBut'><Link to="/registration" className='otherBut'>Регистрация</Link></Button>
+                <Link to="/registration" className='otherButLink'><Button className='otherBut'>Регистрация</Button></Link>
             </ButtonGroup>
             <Form>
                 <Form.Group className="formLogReg" controlId="formBasicEmail">

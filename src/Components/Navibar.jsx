@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Image, NavDropdown } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import './Navibar.css'
 
-import logo from "/public/img/logo.png";
+import logo from "/public/img/logo.svg";
 import avatar from "/public/img/avatar.png";
 
 //компонент шапки

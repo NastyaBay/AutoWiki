@@ -55,14 +55,15 @@
     margin-top: 0px;
 }
 .accList{
-    margin:auto 30px;
+    margin:0;
     padding: 0 15px;
-    width: 500px;
+    width: auto;
     height: 50px;
 }
 .groupData{
     margin: 0;
     padding: 0;
+    padding-left: 30px;
 }
 .accList:hover{
     background-color: #7D8DA1;
@@ -88,24 +89,14 @@
     height: 100%;
     align-items: center;
 }
-.changeAcc{
-    margin-left: auto;
-}
 .hrefAuto{
     width: 70%;
     height: 100%;
     display: flex;
     align-items: center;
 }
-.imgLike{
-    width: 20px;
-    height: 20px;
-}
-.changeAcc:hover{
-    color: #363949;
-}
 .accListChange{
-    margin:auto 30px;
+    margin: 0;
     padding: 15px 15px 0 15px;
     width: 255px;
 }
@@ -126,7 +117,7 @@
     padding:6px 19px;
 }
 .hrChange{
-    margin:15px 15px auto 45px;
+    margin:15px 15px auto 15px;
 }
 .butAccName:hover{
     background-color: #363949;

@@ -1,0 +1,55 @@
+.groupAdd{
+    width: 850px;
+    height: 235px;
+    border: 1px solid;
+    background-color: #202528;
+    margin: 210px auto;
+    border-radius: 10px;
+    padding: 15px 30px 25px 30px;
+}
+.addButCenter{
+    margin: 0 20px;
+}
+.addBut2, .addBut1, .addButCenter{
+    width: 250px;
+    height: 60px;
+    padding: 0;
+}
+.addButGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addBut > .dropBut > .inputDropBut::placeholder{
+    color: #363949;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.textAdd{
+    margin-bottom: 15px;
+    display: flex;
+}
+.butsAdd{
+    margin-left: 0px;
+}
+.addBut::placeholder{
+    color: #363949;
+}
+.buttonAdd{
+    background-color: #363949;
+    border-color: #363949;
+    width: 250px;
+    height: 60px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.buttonAdd:hover{
+    background-color: #677483;
+    border-color: #677483;
+}

@@ -1,0 +1,32 @@
+.cardAutoEdit{
+    background-color: #202528;
+    height: auto;
+    width: 1000px;
+    margin-top: 35px;
+    padding: 40px;
+    padding-top: 20px;
+    color: #EDEFFD;
+}
+.autoEditPage{
+    padding-bottom: 110px;
+}
+.buttonEditArticle{
+    background-color: #A3BDCC;
+    color: #363949;
+    border: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonEditArticle:hover{
+    color: #A3BDCC;
+    background-color: #363949;
+    border: 0;
+}

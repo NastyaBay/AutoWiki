@@ -1,0 +1,42 @@
+.dropBut{
+    height: 100%;
+    width: 100%;
+    background-color: #EDEFFD;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    color: #363949;
+}
+.dropMenuBut{
+    margin-top: 60px;
+    width: 250px;
+    background-color: #EDEFFD;
+}
+.ikDrop{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating){
+    border-radius: 10px;
+}
+.inputDropBut{
+    background-color: #EDEFFD;
+    border: 0;
+    max-width: 200px;
+}
+.ikDrop.rotate {
+    transform: rotate(180deg); /* Или любой другой угол, который вам нужен */
+}
+.inputDropBut:focus,
+.inputDropBut:active
+ {
+  box-shadow: none !important;
+  background-color: #EDEFFD;
+}
+.inputDropBut::placeholder{
+    color: #363949;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}

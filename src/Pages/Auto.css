@@ -1,0 +1,57 @@
+.cardAutoName{
+    background-color: #202528;
+    height: 150px;
+    width: 1000px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    padding: 25px 40px;
+}
+.autoPage{
+    display: flex;
+}
+.cardAutoDock{
+    background-color: #202528;
+    height: auto;
+    width: 1000px;
+    margin-top: 35px;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    margin-bottom: 120px;
+}
+.autoBasicContent{
+    margin: auto;
+    display: block;
+}
+.autoImage{
+    height: 100px;
+}
+.headAuto{
+    color: #EDEFFD;
+    padding-left: 25px;
+}
+.descriptionAuto{
+    margin: 0;
+}
+.nameAuto{
+    margin-bottom: 20px;
+}
+.new{
+    width: 30px;
+}
+.cardAutoName > .changeAcc > .imgLike{
+    width: 30px;
+    height: 30px;
+}
+.cardAutoName > .changeAcc{
+    height: 100%;
+   
+}
+.dockAuto{
+    width: 70%;
+    margin: auto;
+}
+.textDock{
+    padding-bottom: 10px;
+}

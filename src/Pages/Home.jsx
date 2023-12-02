@@ -22,10 +22,10 @@ export const Home = () => (
             </Row>
             <Row className='row2'>  
                 <Col lg={1} className='colButtonHome1'>
-                    <Button className='buttonHome1 buttonHome'>Добавить автомобиль</Button>
+                    <Button href='/autoAdd' className='buttonHome1 buttonHome'>Добавить автомобиль</Button>
                 </Col>
                 <Col lg={2} className='colButtonHome2'>
-                    <Button className='buttonHome2 buttonHome'>Найти</Button>
+                    <Button href='/auto' className='buttonHome2 buttonHome'>Найти</Button>
                 </Col>
             </Row>
         </div>

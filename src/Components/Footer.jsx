@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import './Footer.css'
 
 import vk from "/public/img/vk.svg";
-import tg from "/public/img/tg.png";
+import tg from "/public/img/tg.svg";
 
 //компонент подвала
 const Footer = () => (

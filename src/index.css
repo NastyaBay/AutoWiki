@@ -34,23 +34,43 @@ body > div{
 }
 
 /*для кнопок на странице регистрации и авторизации*/
+
 .activeBut, .activeBut:hover{
   background-color: #677483;
-  border-color: #677483;
+  border: 1px solid #677483;
   font-size: 18px;
   font-weight: 500;
   width: 50%;
 }
 .otherBut, .otherBut:hover{
   background-color: #363949;
-  border-color: #677483;
+  border: 0;
+  color: #EDEFFD;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 5px;
+  height: 99%;
+}
+.otherButLink{
+  background-color: #363949;
+  border: 1px solid #677483;
+  border-radius: 5px;
   color: #EDEFFD;
   font-size: 18px;
   font-weight: 500;
   width: 50%;
 }
+.groupLogin > .groupBtn > .otherButLink, .groupLogin > .groupBtn > .otherBut{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.groupReg > .groupBtn > .otherButLink{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
 /*для красивого подсвечивания границ кнопки при наведении*/
-.otherBut:hover{
+.otherButLink:hover{
   border-color: #363949;
 }
 

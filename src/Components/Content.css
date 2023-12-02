@@ -1,0 +1,22 @@
+.groupContent{
+    background-color: #202528;
+    width: 260px;
+    height: auto;
+    color: #EDEFFD;
+    padding: 30px 0;
+    padding-left: 40px;
+}
+.textSubchapter{
+    font-size: 12px;
+    margin: 15px 0;
+    margin-left: 20px;
+}
+.textChapter{
+    margin: 15px 0;
+}
+.linkContent{
+    color:#EDEFFD;
+}
+.activePage{
+    color: #A3BDCC;
+}

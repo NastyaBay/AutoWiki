@@ -1,0 +1,16 @@
+.changeAcc{
+    margin-left: auto;
+}
+.textAcc:hover > .hrefAuto, .textAcc:hover > .changeAcc{
+    color: #363949;
+}
+.cardAutoDecision:hover{
+    background-color: #7D8DA1;
+    border-radius: 0;
+}
+.cardAutoDecision{
+    height: 70px;
+}
+.textAutoDecision{
+    font-size: 16px;
+}

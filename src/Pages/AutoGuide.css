@@ -1,0 +1,34 @@
+.cardAuto{
+    background-color: #202528;
+    height: auto;
+    width: 1000px;
+    margin-top: 35px;
+    padding: 20px 40px;
+    color: #EDEFFD;
+}
+.hrGuide{
+    border-top: 1px solid #7D8DA1;
+    width: 200px;
+}
+.cardAuto2{
+    background-color: #202528;
+    height: auto;
+    width: 1000px;
+    margin-bottom: 120px;
+    margin-top: 35px;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #EDEFFD;
+}
+.editImg{
+    position: absolute;
+    margin-left: 900px;
+}
+.decision{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}

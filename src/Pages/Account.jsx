@@ -3,8 +3,7 @@ import {Image, Container, Button, Form} from 'react-bootstrap';
 import Footer from '/src/Components/Footer'
 import './Account.css'
 import avatarAcc from "/public/img/avatarAcc.png";
-import like from '/public/img/like.png'
-import LikeButton from '/src/Components/Like'
+import CardFavoriteQuestion from '/src/Components/CardFavoriteQuestion'
 
 export const Account = () => {
     const [isFormVisibleName, setFormVisibleName] = useState(false);
@@ -80,9 +79,9 @@ export const Account = () => {
                         ) : ( 
                         <>
                         <Container className='accList'>
-                        <div className='fontRubbik14 textAcc'>
+                        <div className='fontRubbik14 textAcc' onClick={toggleFormVisibilityName}>
                             Имя
-                            <div onClick={toggleFormVisibilityName} className='changeAcc'>Изменить</div>
+                            <div className='changeAcc'>Изменить</div>
                         </div>
                         <hr className='hrAcc'></hr>
                         </Container>
@@ -113,9 +112,9 @@ export const Account = () => {
                         ) : ( 
                         <>
                         <Container className='accList'>
-                        <div className='fontRubbik14 textAcc'>
+                        <div className='fontRubbik14 textAcc' onClick={toggleFormVisibilityEmail}>
                             Email
-                            <div onClick={toggleFormVisibilityEmail} className='changeAcc'>Изменить</div>
+                            <div className='changeAcc'>Изменить</div>
                         </div>
                         <hr className='hrAcc'></hr>
                         </Container>
@@ -152,9 +151,9 @@ export const Account = () => {
                         ) : ( 
                         <>
                         <Container className='accList'>
-                        <div className='fontRubbik14 textAcc'>
+                        <div className='fontRubbik14 textAcc' onClick={toggleFormVisibilityPassword}>
                             Пароль
-                            <div onClick={toggleFormVisibilityPassword} className='changeAcc'>Изменить</div>
+                            <div  className='changeAcc'>Изменить</div>
                         </div>
                         <hr className='hrAcc'></hr>
                         </Container>
@@ -169,26 +168,37 @@ export const Account = () => {
                 <Container className='fontRubbik14 accData'>Избранное</Container>
                 <Container className='fontRubbik14 accData underline'>Автомобили</Container>
                 <Container className='groupData'>
-                    <LikeButton name='Название автомобиля' href='https://yandex.ru/images/search?img_url=https%3A%2F%2Fpozdravik.com%2Fhoroshego-dnja%2Fkrasivye-9.jpg&lr=54&pos=0&rpt=simage&source=serp&text=%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B3%D0%BE%20%D0%B4%D0%BD%D1%8F'/>
-                    <LikeButton name='Название автомобиля'/>
-                    <LikeButton name='Название автомобиля'/>
-                    <LikeButton name='Название автомобиля'/>
+                    <CardFavoriteQuestion
+                 name='Название автомобиля' href='https://yandex.ru/images/search?img_url=https%3A%2F%2Fpozdravik.com%2Fhoroshego-dnja%2Fkrasivye-9.jpg&lr=54&pos=0&rpt=simage&source=serp&text=%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B3%D0%BE%20%D0%B4%D0%BD%D1%8F'/>
+                    <CardFavoriteQuestion nameQueComm='Ответов: 12000'
+                 name='Название автомобиля'/>
+                    <CardFavoriteQuestion
+                 name='Название автомобиля'/>
+                    <CardFavoriteQuestion
+                 name='Название автомобиля'/>
                 </Container>
                 <Container className='fontRubbik14 accData solution underline'>Решения</Container>
                 <Container className='groupData'>
-                    <LikeButton name='Название темы'/>
-                    <LikeButton name='Название темы'/>
-                    <LikeButton name='Название темы'/>
+                    <CardFavoriteQuestion
+                 name='Название темы'/>
+                    <CardFavoriteQuestion
+                 name='Название темы'/>
+                    <CardFavoriteQuestion
+                 name='Название темы'/>
                 </Container>
             </Container>
 
             <Container className='groupAccQuestion'>
                 <Container className='fontRubbik14 accData'>Мои вопросы</Container>
                 <Container className='groupData'>
-                    <LikeButton name='Название темы' isQuea='true'/>
-                    <LikeButton name='Название темы' isQuea='true'/>
-                    <LikeButton name='Название темы' isQuea='true'/>
-                    <LikeButton name='Название темы' isQuea='true'/>
+                    <CardFavoriteQuestion nameQueComm='Ответов: 12000'
+                 name='Название темы' isQuea='true'/>
+                    <CardFavoriteQuestion nameQueComm='Ответов: 12000'
+                 name='Название темы' isQuea='true'/>
+                    <CardFavoriteQuestion nameQueComm='Ответов: 12000'
+                 name='Название темы' isQuea='true'/>
+                    <CardFavoriteQuestion nameQueComm='Ответов: 12000'
+                 name='Название темы' isQuea='true'/>
                     
                 </Container>
                 <Button className='buttonAccQuestion'>Задать вопрос</Button>

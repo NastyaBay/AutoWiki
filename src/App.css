@@ -12,12 +12,18 @@
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: 500;
+    color: #EDEFFD;
 }
 .fontRubbik14{
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: #EDEFFD;
+}
+.fontRubbik22{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
 }
 /*для изменения цвета при наведении*/
 .textBody{
@@ -43,6 +49,7 @@
     margin: 40px 45px 30px 45px;
     width: 310px;
     height: 40px;
+    border-radius: 5px;
 }
 .LabelFormRegLog{
     color: #EDEFFD;
@@ -53,7 +60,3 @@
 .regForm{
     height: 40px;
 }
-/*
-textarea.form-control, input.form-control, .entry{
-    height: 40px;
-}*/

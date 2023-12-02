@@ -5,9 +5,9 @@ import './Registration.css'
 
 export const Registration = () => (
     <>
-        <div className='groupReg '>
+        <div className='groupReg'>
             <ButtonGroup aria-label="Basic example" className='groupBtn fontRubbik18'>
-                <Button className='otherBut'><Link to="/login" className='otherBut'>Вход</Link></Button>
+                <Link to="/login" className='otherButLink'><Button className='otherBut'>Вход</Button></Link>
                 <Button className='activeBut'>Регистрация</Button>
             </ButtonGroup>
             <Form>
