@@ -1,0 +1,42 @@
+.homeDrop > .dropdown-toggle{
+    width: 250px;
+    height: 60px; 
+    border-radius: 10px;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #EDEFFD;
+    color: #363949;
+}
+.dropdown-toggle:after{
+    border: 0;
+}
+.ik{
+    float: right;
+    padding: 5px 0;
+}
+.dropdown-menu{
+    width: 250px;
+    background-color: #EDEFFD;
+    font-size: 16px;
+}
+.itemButton{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button-text{
+    font-size: 16px;
+    text-align: left;
+    margin: 17px 25px ;
+}
+.homeDrop > .btn-primary:active {
+    --bs-btn-active-bg:#EDEFFD;
+    --bs-btn-active-border-color: #EDEFFD;
+    --bs-btn-active-color: #363949;
+  }
+
+.ik.rotate {
+    transform: rotate(180deg); 
+}
+

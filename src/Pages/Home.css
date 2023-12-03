@@ -24,10 +24,7 @@
 .dropHome3{
     margin: 30px 30px 40px 20px;
 }
-.button-text {
-    text-align: left;
-    margin: 15px 20px 0 25px;
-}
+
 .colButtonHome1{
     margin: 0 20px 30px 160px;
 
@@ -50,9 +47,4 @@
 }
 .buttonHome:hover{
     background-color: #677483;
-}
-.itemButton{
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
 }

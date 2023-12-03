@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Button} from 'react-bootstrap';
-import CustomDropdownButton from '/src/Components/drop'
+import CustomDropdownButton from '/src/Components/DropHome'
 import Footer from '/src/Components/Footer'
 import './Home.css'
 
