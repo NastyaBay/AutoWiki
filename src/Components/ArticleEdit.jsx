@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Form, Image } from 'react-bootstrap';
 import './ArticleEdit.css'
 import clip from '/public/img/clip.svg'
@@ -19,15 +19,18 @@ const dictionaries  = {
 
 export const ArticleEdit = ({id}) => {
   const dictionary = dictionaries [id] || {}; 
+  const [value, setValue] = useState(dictionary.text);
+  const [height, setHeight] = useState('85px');
 
   useEffect(() => {
-    const textArea = document.getElementById(id);
-    textArea.addEventListener('input', function () {
-      this.style.height = 'auto';
-      this.style.height = (this.scrollHeight) + 'px';
-    });
-    textArea.dispatchEvent(new Event('input')); 
-  }, []);
+    setHeight('auto');
+    setHeight(`${document.getElementById(id).scrollHeight}px`);
+  }, [value, id]);
+
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
+
 
   return (
     <>
@@ -40,8 +43,12 @@ export const ArticleEdit = ({id}) => {
             as="textarea"
             id={id}
             className="textArticle formArtilceEdit"
+            value={value}
             defaultValue={dictionary.text}
             placeholder='Начните вводить текст'
+            onChange={handleChange}
+            style={{height: `${height}`,
+            minHeight: '85px', }}
           />
         <Image className='imgClip' src={clip}></Image>
         <Image className='imgSave' src={save}></Image>
@@ -50,3 +57,22 @@ export const ArticleEdit = ({id}) => {
     </>
   );
 };
+
+/*
+useEffect(() => {
+    const textArea = document.getElementById(id);
+    textArea.addEventListener('input', function () {
+      this.style.height = 'auto';
+      this.style.height = (this.scrollHeight) + 'px';
+    });
+    textArea.dispatchEvent(new Event('input')); 
+  }, []);
+
+    const [height, setHeight] = useState('auto');
+
+  const handleChange = (e) => {
+    setValue(e.target.value);
+    setHeight('auto');
+    setHeight(e.target.scrollHeight + 'px');
+  };
+*/

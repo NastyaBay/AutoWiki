@@ -1,0 +1,49 @@
+.groupForum{
+    width: 850px;
+    height: 220px;
+    border: 1px solid;
+    background-color: #202528;
+    margin: 210px auto;
+    border-radius: 10px;
+}
+.rowForum{
+    width: 850px;
+    margin: 0;
+}
+.dropForum1, .dropForum2, .dropForum3, .colButtonForum1, .colButtonForum2{
+    width: 250px;
+    height: 60px;
+    padding: 0;
+}
+.dropForum2{
+    margin: 30px 0;
+}
+.dropForum1{
+    margin: 30px 20px 20px 30px;
+}
+.dropForum3{
+    margin: 30px 30px 40px 20px;
+}
+
+.colButtonForum1{
+    margin: 0 20px 30px 160px;
+}
+.colButtonForum2{
+    margin: 0 170px 30px 0px;
+}
+.buttonForum{
+    background-color: #363949;
+    color: #EDEFFD;
+    border: 0;
+    height: 60px;
+    width: 250px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonForum:hover{
+    background-color: #677483;
+}

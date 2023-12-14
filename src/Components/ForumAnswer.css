@@ -1,0 +1,43 @@
+.forumAnswer{
+    background-color: #363949;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    color: #EDEFFD;
+    padding: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+.textAnswerForum{
+    font-size: 16px;
+   margin-bottom: 0px;
+}
+.navForum{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.rowAnswer1,.rowAnswer2{
+    display: flex;
+}
+.navbAnswer{
+    display: flex;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.rowAnswer2 > .changeAcc{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.dateAnswer{
+    padding-right: 5px;
+}
+.nameAnswer{
+    padding-right: 15px;
+}
+.imgAnswerForum{
+    max-width: 150px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}

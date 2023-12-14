@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Container} from 'react-bootstrap';
-import { LikeButton } from './like';
+import { LikeButton } from './Like';
 import './CardFavoriteQuestion.css'
 
 const CardFavoriteQuestion = ({name, href, isQuea, nameQueComm, className, classText}) => {

@@ -10,7 +10,10 @@ import {Auto} from './Pages/Auto';
 import {AutoAdd} from './Pages/AutoAdd';
 import {AutoGuide} from './Pages/AutoGuide';
 import {AutoEdit} from './Pages/AutoEdit';
-
+import {DecisionForum} from './Pages/DecisionForum';
+import {NewForum} from './Pages/NewForum';
+import {ForumHome} from './Pages/ForumHome';
+import {Forum} from './Pages/Forum';
 
 function App() {
 
@@ -27,6 +30,10 @@ function App() {
            <Route path="/autoAdd" element={<AutoAdd />}/>
            <Route path="/auto/electric" element={<AutoGuide />}/>
            <Route path="/auto/edit" element={<AutoEdit />}/>
+           <Route path="/forum1" element={<DecisionForum />}/>
+           <Route path="/newForum" element={<NewForum />}/>
+           <Route path="/forumHome" element={<ForumHome />}/>
+           <Route path="/forum" element={<Forum />}/>
        </Routes>
     </Router>         
     </>     

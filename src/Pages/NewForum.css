@@ -1,0 +1,40 @@
+.NewForum{
+    background-color: #363949;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    color: #EDEFFD;
+    padding: 10px 30px;
+}
+.newGroupClipSend{
+    padding: 0;
+    padding-top: 15px;
+}
+.newBut, .newBut:hover{
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    color: #363949;
+    background-color: #A3BDCC;
+    border: 0;
+    margin-left: 25px;
+    padding-top: 4px;
+    font-weight: 500;
+}
+.newForm, .newFormName{
+    overflow-y: hidden;
+    resize: none;
+    border-radius: 10px;
+}
+.newFormName{
+    margin-bottom: 15px;
+    height: 50px;
+}
+.newForumPage{
+    background-color: #202528;
+    width: 850px;
+    height: auto;
+    margin-top: 35px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}

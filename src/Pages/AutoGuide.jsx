@@ -2,7 +2,7 @@ import React from 'react'
 import './AutoGuide.css'
 import Footer from '/src/Components/Footer'
 import Content from '/src/Components/Content'
-import { Container, Image } from 'react-bootstrap'
+import { Button, Container, Image } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import edit from '/public/img/edit.svg'
 import CardFavoriteQuestion from '/src/Components/CardFavoriteQuestion'
@@ -33,7 +33,7 @@ export const AutoGuide = () => (
                  name='Название темы' isQuea='true' className='cardAutoDecision' classText='textAutoDecision'/>
                 <CardFavoriteQuestion nameQueComm='Комментарии: 123'
                  name='Название темы' isQuea='true' className='cardAutoDecision' classText='textAutoDecision'/>  
-                <p className='fontRubbik16 decision'>Ещё больше решений</p>    
+                <Button href = '/forumHome' className='fontRubbik16 decision'>Ещё больше решений</Button>    
             </Container>            
         </Container>
         </div>

@@ -1,0 +1,61 @@
+.forumQuestion{
+    background-color: #363949;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    color: #EDEFFD;
+    padding: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+.textQuestForum{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.avatarForum{
+    height: 50px;
+    margin: 0;
+}
+.navForum{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.row1,.row2{
+    display: flex;
+}
+.navbForum{
+    display: flex;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.row2 > .changeAcc{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.dateForum{
+    padding-right: 5px;
+}
+.nameForum{
+    padding-right: 15px;
+}
+.imgForum{
+    max-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.answerForum, .backButForum{
+    background-color: #363949;
+    border: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #EDEFFD;
+    padding-left: 0;
+}
+.answerForum:hover, .backButForum:hover{
+    color: #677483;
+    background-color: #363949;
+    border: 0;
+}

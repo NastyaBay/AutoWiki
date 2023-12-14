@@ -1,0 +1,28 @@
+.forumWriteAnswer{
+    background-color: #363949;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    color: #EDEFFD;
+    padding: 10px 30px;
+}
+.groupClipSend{
+    padding: 0;
+    padding-top: 15px;
+}
+.butWriteAnswer, .butWriteAnswer:hover{
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    color: #363949;
+    background-color: #A3BDCC;
+    border: 0;
+    margin-left: 25px;
+    padding-top: 4px;
+    font-weight: 500;
+}
+.formWriteAnswer {
+    overflow-y: hidden;
+    resize: none;
+    border-radius: 10px;
+}

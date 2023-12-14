@@ -1,6 +1,4 @@
-.changeAcc{
-    margin-left: auto;
-}
+
 .textAcc:hover > .hrefAuto, .textAcc:hover > .changeAcc{
     color: #363949;
 }

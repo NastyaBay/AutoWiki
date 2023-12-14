@@ -1,7 +1,7 @@
 
 // Вариант с инпутом и анимацией стрелки
 import React, { useState } from 'react';
-import { FormControl, Dropdown, InputGroup } from 'react-bootstrap';
+import { FormControl, Dropdown, InputGroup, DropdownButton } from 'react-bootstrap';
 import ik from '/public/img/ik.svg'
 import './drop.css'
 
@@ -26,7 +26,33 @@ const CustomDropdownInput = ({name}) => {
   }
 
   return (
-    <InputGroup className="dropBut">
+    <InputGroup className="dropBut" as='fieldset' >
+    <FormControl
+      placeholder={name}
+      value={inputValue || ""}
+      onChange={handleInputChange}
+      onClick={handleInputSubmit}
+      className='inputDropBut'
+    />
+
+    <DropdownButton
+      id='dropdown-basic-button'
+      title={<><img className={`ikDrop ${isDropdownOpen ? 'rotate' : ''}`} src={ik} onClick={handleInputSubmit} /></>}
+      show={isDropdownOpen}
+      className='dropMenuBut'
+      >
+      {options.map((option, index) => (
+        <Dropdown.Item key={index} className='itemButton' onClick={() => handleOptionSelect(option)}>{option}</Dropdown.Item>
+      ))}
+    </DropdownButton>
+  </InputGroup>
+  );
+};
+
+export default CustomDropdownInput;
+
+
+/*<InputGroup className="dropBut">
       <FormControl
         placeholder={name}
         value={inputValue}
@@ -41,8 +67,4 @@ const CustomDropdownInput = ({name}) => {
           </Dropdown.Item>
         ))}
         </Dropdown.Menu>
-    </InputGroup>
-  );
-};
-
-export default CustomDropdownInput;
+    </InputGroup> */

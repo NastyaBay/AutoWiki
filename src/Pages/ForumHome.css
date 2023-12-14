@@ -1,0 +1,40 @@
+.forumHome{
+    background-color: #202528;
+    width: 850px;
+    height: auto;
+    margin-top: 35px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.textForumHome, .textForumHome:hover{
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #202528;
+    border: 0;
+}
+.butForumHome{
+    background-color: #A3BDCC;
+    color: #363949;
+    border: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 220px;
+}
+
+.butForumHome:hover{
+    color: #EDEFFD;
+    background-color: #363949;
+    border: 0;
+}
+.btnHome > .btn:active {
+    --bs-btn-active-bg:#202528;
+    --bs-btn-active-color: #677483;
+  }

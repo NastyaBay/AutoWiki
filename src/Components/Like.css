@@ -5,3 +5,6 @@
 .changeAcc:hover{
     color: #363949;
 }
+.changeAcc{
+    margin-left: auto;
+}

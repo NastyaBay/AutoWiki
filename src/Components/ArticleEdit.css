@@ -13,12 +13,12 @@
     margin-bottom: 15px;   
 }
 .imgClip{
-    position: absolute;
-    margin-top: -35px;
-    margin-left: 15px;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
 }
 .imgSave{
-    position: absolute;
-    margin-top: -35px;
-    margin-left: 880px;
+    position: relative;
+    bottom: 40px;
+    left: 92%;
 }

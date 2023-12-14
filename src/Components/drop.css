@@ -7,16 +7,29 @@
     height: 60px;
     color: #363949;
 }
-.dropMenuBut{
-    margin-top: 60px;
-    width: 250px;
+
+.dropBut > .dropdown-toggle, .dropBut > .dropdown-toggle:disabled{
+    background-color: #EDEFFD;
+    border: 0;
+}
+.dropBut > .dropdown-menu{
+    margin-left: -200px;
+}
+.dropBut > .dropdown-toggle:active{
     background-color: #EDEFFD;
 }
+/* Убрать
 .ikDrop{
     position: absolute;
     right: 20px;
     bottom: 20px;
 }
+.dropMenuBut{
+    margin-top: 60px;
+    width: 250px;
+    background-color: #EDEFFD;
+}
+*/
 .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating){
     border-radius: 10px;
 }
@@ -26,8 +39,9 @@
     max-width: 200px;
 }
 .ikDrop.rotate {
-    transform: rotate(180deg); /* Или любой другой угол, который вам нужен */
+    transform: rotate(180deg); 
 }
+
 .inputDropBut:focus,
 .inputDropBut:active
  {

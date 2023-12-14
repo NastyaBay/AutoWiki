@@ -26,7 +26,21 @@
 }
 
 .buttonEditArticle:hover{
-    color: #A3BDCC;
+    color: #EDEFFD;
     background-color: #363949;
     border: 0;
+}
+.butBack{
+    background-color: #202528;
+    color: #EDEFFD;
+    border: 0;
+    position: relative;
+   left: 93%;
+   font-size: 14px;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 500;
+}
+.butBack:hover, .cardAutoEdit > .btn:active{
+    background-color: #202528;
+    color: #677483;
 }

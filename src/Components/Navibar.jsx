@@ -22,7 +22,7 @@ export default function NaviBar() {
                 <Navbar.Collapse id="responsiva-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link><Link to="/" className="textBody">Главная</Link></Nav.Link>
-                        <Nav.Link><Link to="/users" className="textBody">Форум</Link></Nav.Link>
+                        <Nav.Link><Link to="/forum" className="textBody">Форум</Link></Nav.Link>
                     </Nav>
                     {false ? (
                       <>

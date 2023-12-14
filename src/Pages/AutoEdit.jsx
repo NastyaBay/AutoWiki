@@ -16,6 +16,7 @@ export const AutoEdit = () => {
     <>
       <div className='autoEditPage'>
         <Container className='cardAutoEdit'>
+          <Button className='butBack' href='/auto/electric'>Назад</Button>
           <h2 className='heading fontRubbik20'>Toyota Corolla
             <hr className='hrGuide'></hr>
           </h2>
@@ -28,6 +29,7 @@ export const AutoEdit = () => {
           <Button className='buttonEditArticle' onClick={addSubsection}>
             Добавить подраздел
           </Button>
+
         </Container>
       </div>
       <Footer />
